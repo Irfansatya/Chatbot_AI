@@ -1,0 +1,408 @@
+.main{
+    flex: 1;
+    min-height: 100vh;
+    position: relative;
+    background-color: #131314;
+   }
+   
+   .main .nav{
+      display: flex;
+      align-items: center;
+      font-size: 22px;
+      justify-content: space-between;
+      padding: 20px;
+      color: white;
+      position: fixed;
+      background-color: #131314;
+   }
+
+   .versiAI {
+    background-color: #131314;
+    width: 119px;
+    height: 39px;
+    display: flex;
+    margin-left: -4px;
+    margin-top: -3px;
+    border-radius: 8px;
+   }
+
+   .versiAI:hover {
+    background-color: #242424;
+    width: 119px;
+    height: 39px;
+    display: flex;
+    margin-left: -4px;
+    margin-top: -3px;
+    border-radius: 8px;
+   }
+
+   .judulAI {
+    color: #E3E3E3;
+    font-size: 22px;
+    margin-top: 2px;
+    margin-left: 10px;
+   }
+
+   .arrowDown {
+    width: 16px;
+    height: auto;
+    margin-left: 6px;
+    margin-top: 11.5px;
+   }
+
+   .iconBaru {
+    width: 20px;
+    height: auto;
+    margin-left: 8.5px;
+   }
+
+   .chatBaru {
+    z-index: 1000;
+    position: fixed;
+    left: 1168px;
+    top: 18px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    align-items: center;
+    background-color: #333537;
+   }
+
+   .chatBaru:hover {
+    z-index: 1000;
+    position: fixed;
+    left: 1168px;
+    top: 18px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    align-items: center;
+    background-color: #414345;
+   }
+
+   .buttonUpgrade {
+    display: flex;
+    width: 220px;
+    height: 38px;
+    background-color: #333537;
+    border-radius: 8px;
+    z-index: 1000;
+    position: fixed;
+    left: 931px;
+    top: 18px;
+   }
+
+   .buttonUpgrade:hover {
+    display: flex;
+    width: 220px;
+    height: 38px;
+    background-color: #414345;
+    border-radius: 8px;
+    z-index: 1000;
+    position: fixed;
+    left: 931px;
+    top: 18px;
+   }
+
+   .logoButton {
+    width: 15px;
+    height: auto;
+    margin-top: 12px;
+    margin-left: 30px;
+   }
+
+   .cobaText {
+    font-size: 14px;
+    color: #E3E3E3;
+    margin-left: 10px;
+    margin-top: 8px;
+   }
+   
+   .userIcon{
+       width: 38px;
+       height: auto;
+       left: 1220px;
+       top: 18px;
+       z-index: 1000;
+       position: fixed;
+   }
+
+   .mainCenter {
+    justify-content: center;
+    display: flex;
+   }
+   
+   .main-container{
+       width: 900px;
+       margin-top: 118px;
+       text-align: center;
+       align-items: center;
+   }
+
+   .textGradient {
+    margin-top: 100px;
+    font-size: 34px;
+    font-weight: 500;
+   }
+   
+   .main .greet{
+       font-size: 32px;
+       color: #c4c7c5;
+       padding: 20px;
+   }
+   
+   .main .greet span {
+       background: -webkit-linear-gradient(16deg, #8243FF, #FF9900); /* For older WebKit browsers */
+       background: linear-gradient(16deg, #8243FF, #FF9900); /* Standard property for other browsers */
+       
+       -webkit-background-clip: text; /* WebKit-specific */
+       background-clip: text; /* Standard property */
+       
+       -webkit-text-fill-color: transparent; /* Needed for text gradient in WebKit browsers */
+       color: transparent; /* Standard property */
+     }
+   
+     .main .cards{
+       display: grid;
+       grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+       gap: 15px;
+       padding: 20px;
+       margin-top: 14px;
+     }
+   
+     .main .card{
+       height: 160px;
+       padding: 15px;
+       background-color: #1E1F20;
+       border-radius: 10px;
+       position: relative;
+       cursor: pointer;
+       text-align: left;
+     }
+   
+   .main .card p{
+       color: #E3E3E3;
+       font-size: 16px; 
+       margin-top: 0px;
+       margin-left: 3px;
+   }
+   
+   .main .card:hover{
+       background-color: #282A2C;
+   }
+
+   .cardIcon {
+    width: 38px;
+    height: auto;
+    margin-left: 133px;
+    margin-top: 42px;
+   }
+   
+   .main-bottom{
+       width: 100%;
+       max-width: 900px;
+   }
+   
+   .search-box{
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+       gap: 20px;
+       background-color: #1E1F20;
+       padding: 10px 20px;
+       border-radius: 50px;
+       margin-top: -10px;
+   }
+
+   .imageButton {
+    width: 37px;
+    height: 37px;
+    background-color: #1E1F20;
+    border-radius: 50%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+   }
+
+   .imageButton:hover {
+    width: 37px;
+    height: 37px;
+    background-color: #2F3030;
+    border-radius: 50%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+   }
+
+   .imageIcon {
+    width: 23px;
+    height: auto;
+   }
+
+   .voiceButton {
+    width: 37px;
+    height: 37px;
+    background-color: #1E1F20;
+    border-radius: 50%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+   }
+
+   .voiceButton:hover {
+    width: 37px;
+    height: 37px;
+    background-color: #2F3030;
+    border-radius: 50%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+   }
+
+   .voiceIcon {
+    width: 20px;
+    height: auto;
+   }
+
+   .sendButton {
+    width: 37px;
+    height: 37px;
+    background-color: #1E1F20;
+    border-radius: 50%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+   }
+
+   .sendButton:hover {
+    width: 37px;
+    height: 37px;
+    background-color: #2F3030;
+    border-radius: 50%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+   }
+
+   .sendIcon {
+    width: 22px;
+    height: auto;
+   }
+   
+   .search-box input{
+       flex: 1;
+       background: transparent;
+       border: none;
+       outline: none;
+       font-size: 16px;
+       color: #BDC1C6;
+   }
+   
+   .search-box div{
+      display: flex;
+      align-items: center;
+      gap: 5px;
+   }
+   
+   .main .bottom-info{
+       font-size: 13px;
+       margin: 9px auto;
+       text-align: center;
+       font-weight: 300;
+       color: #BFC7C5;
+   }
+   
+   .message-list {
+       display: flex;
+       flex-direction: column;
+       gap: 10px; /* Jarak antar pesan */
+       padding: 10px;
+     }
+     
+     .message {
+       max-width: 70%; /* Batasi lebar pesan */
+       padding: 10px;
+       border-radius: 8px;
+       margin-bottom: 10px;
+       font-size: 16px;
+     }
+     
+     .user-message {
+       align-self: flex-end; /* Buat pesan user di sebelah kanan */
+       background-color: #e0f7fa;
+       color: #000;
+       text-align: right;
+     }
+     
+     .bot-message {
+       align-self: flex-start; /* Buat pesan bot di sebelah kiri */
+       background-color: #eeeeee;
+       color: #000;
+       text-align: left;
+     }
+   
+     /* ... (your existing CSS) ... */
+   
+   .loading-animation {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       padding: 20px;
+   }
+   
+   .loading-animation .dot {
+       width: 10px;
+       height: 10px;
+       background-color: #333;
+       border-radius: 50%;
+       margin: 0 5px;
+       animation: bounce 1.4s infinite ease-in-out both;
+   }
+   
+   .loading-animation .dot:nth-child(1) {
+       animation-delay: -0.32s;
+   }
+   
+   .loading-animation .dot:nth-child(2) {
+       animation-delay: -0.16s;
+   }
+   
+   @keyframes bounce {
+       0%, 80%, 100% {
+           transform: scale(0);
+       }
+       40% {
+           transform: scale(1);
+       }
+   }
+   
+   .custom-prompt {
+       margin-bottom: 10px; /* Jarak antara prompt dan kotak pesan */
+   }
+   
+   .custom-prompt input {
+       width: 100%;
+       padding: 10px;
+       border: 1px solid #ccc;
+       border-radius: 4px;
+   }
+   
+   .message {
+       margin: 10px 0;
+       padding: 10px;
+       border-radius: 5px;
+   }
+   
+   .user-message {
+       background-color: #e1f5fe;
+       text-align: right;
+   }
+   
+   .bot-message {
+       background-color: #f1f1f1;
+       text-align: left;
+   }
+   
+   p {
+       margin: 10px 0;
+   }  
